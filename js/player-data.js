@@ -1,4 +1,4 @@
-var playerData = {
+const players = {
 	yanks: {
 		name: 'New York Yankees',
 		position: 'N/A',

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Top 15 Yankees Stats</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Martel+Sans:400,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+  </head>
+
+  <body>
+    <div class="outer-wrapper">
+      <nav class="top-nav">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="about.html" class="nav-btn">About</a>
+      </nav>
+
+
+      <!-- PLAYER CARD GALLERY -->
+<div class="gallery">
+
+  <div class="player-card">
+    <img src="../img/br.jpg" alt="Babe Ruth">
+    <h3>Babe Ruth</h3>
+    <button onclick="showPlayer('br')">View Stats</button>
+  </div>
+
+  <div class="player-card">
+    <img src="../img/lg.jpg" alt="Lou Gehrig">
+    <h3>Lou Gehrig</h3>
+    <button onclick="showPlayer('lg')">View Stats</button>
+  </div>
+
+  <div class="player-card">
+    <img src="../img/mm.jpg" alt="Mickey Mantle">
+    <h3>Mickey Mantle</h3>
+    <button onclick="showPlayer('mm')">View Stats</button>
+  </div>
+
+  <div class="player-card">
+    <img src="../img/jd.jpg" alt="Joe DiMaggio">
+    <h3>Joe DiMaggio</h3>
+    <button onclick="showPlayer('jd')">View Stats</button>
+  </div>
+
+  <div class="player-card">
+    <img src="../img/yb.jpg" alt="Yogi Berra">
+    <h3>Yogi Berra</h3>
+    <button onclick="showPlayer('yb')">View Stats</button>
+  </div>
+
+    <div class="player-card">
+        <img src="../img/dj.jpg" alt="Derek Jeter">
+        <h3>Derek Jeter</h3>
+        <button onclick="showPlayer('dj')">View Stats</button>
+    </div>
+
+    <div class="player-card">
+        <img src="../img/mr.jpg" alt="Mariano Rivera">
+        <h3>Mariano Rivera</h3>
+        <button onclick="showPlayer('mr')">View Stats</button>
+    </div>
+
+
+    <div class="player-card">
+        <img src="../img/wf.jpg" alt="Whitey Ford">
+        <h3>Whitey Ford</h3>
+        <button onclick="showPlayer('wf')">View Stats</button>
+    </div>
+
+    <div class="player-card">
+        <img src="../img/tm.jpg" alt="Thurman Munson">
+        <h3>Thurman Munson</h3>
+        <button onclick="showPlayer('tm')">View Stats</button>
+    </div>
+
+    <div class="player-card">
+        <img src="../img/bw.jpg" alt="Bernie Williams">
+        <h3>Bernie Williams</h3>
+        <button onclick="showPlayer('bw')">View Stats</button>
+    </div>
+
+    <div class="player-card">
+        <img src="../img/aj.jpg" alt="Aaron Judge">
+        <h3>Aaron Judge</h3>
+        <button onclick="showPlayer('aj')">View Stats</button>
+    </div>
+
+    <div class="player-card">
+        <img src="../img/ar.jpg" alt="Alex Rodriguez">
+        <h3>Alex Rodriguez</h3>
+        <button onclick="showPlayer('ar')">View Stats</button>
+    </div>
+
+    <div class="player-card">
+        <img src="../img/dm.jpg" alt="Don Mattingly">
+        <h3>Don Mattingly</h3>
+        <button onclick="showPlayer('dm')">View Stats</button>
+    </div>
+
+    <div class="player-card">
+        <img src="../img/ap.jpg" alt="Andy Pettitte">
+        <h3>Andy Pettitte</h3>
+        <button onclick="showPlayer('ap')">View Stats</button>
+    </div>
+
+    <div class="player-card">
+        <img src="../img/rj.jpg" alt="Reggie Jackson">
+        <h3>Reggie Jackson</h3>
+        <button onclick="showPlayer('rj')">View Stats</button>
+    </div>
+    
+
+</div>
+
+<!-- PLAYER MODAL -->
+
+<div id="player-modal" class="modal">
+
+  <div class="modal-content">
+
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+
+    <img id="info-pic" src="../img/yanks.jpg" alt="Player Image">
+
+    <h2 id="info-name">Player Name</h2>
+
+    <p><strong>Position:</strong> <span id="info-position"></span></p>
+
+    <p><strong>World Series Wins:</strong> <span id="info-wins"></span></p>
+
+    <p><strong>All-Star Selections:</strong> <span id="info-selections"></span></p>
+
+    <p><strong>Best Stat 1:</strong> <span id="info-bs1"></span></p>
+
+    <p><strong>Best Stat 2:</strong> <span id="info-bs2"></span></p>
+
+    <p><strong>Best Stat 3:</strong> <span id="info-bs3"></span></p>
+
+    <p><strong>Hometown:</strong> <span id="info-hometown"></span></p>
+
+    <p><strong>Nickname:</strong> <span id="info-nickname"></span></p>
+
+  </div>
+
+</div>
+  </body>
+
+<script src="../js/player-data.js"></script>
+<script src="../js/script.js"></script>
+</html>
