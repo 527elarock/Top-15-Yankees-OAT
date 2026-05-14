@@ -9,6 +9,20 @@ for (const key in players) {
 
   card.classList.add("player-card");
 
+  /* GOLD BORDER CONDITION FROM WEB */
+
+  if (player.wins > 5) {
+    card.classList.add("legend-card");
+
+    const badge = document.createElement("div");
+
+    badge.classList.add("legend-badge");
+
+    badge.textContent = "Yankees Legend";
+
+    card.appendChild(badge);
+  }
+  /*END OF GOLD BORDER FROM WEB */
   card.innerHTML = `
   
     <img src="${player.image}" alt="${player.name}">
@@ -44,17 +58,6 @@ function showPlayer(playerKey) {
 
 function closeModal() {
   document.getElementById("player-modal").style.display = "none";
-
-
-  //GOT FROM WEB
-  window.onclick = function(event) {
-
-  const modal = document.getElementById("player-modal");
-
-  if (event.target === modal) {
-
-    modal.style.display = "none";
-  }
 }
 
-}
+console.log(players);
