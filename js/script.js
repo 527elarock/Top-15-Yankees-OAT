@@ -1,3 +1,29 @@
+const gallery = document.getElementById("player-gallery");
+
+/* CREATE PLAYER CARDS */
+
+for (const key in players) {
+  const player = players[key];
+
+  const card = document.createElement("div");
+
+  card.classList.add("player-card");
+
+  card.innerHTML = `
+  
+    <img src="${player.image}" alt="${player.name}">
+
+    <h3>${player.name}</h3>
+
+    <button onclick="showPlayer('${key}')">
+      View Stats
+    </button>
+
+  `;
+
+  gallery.appendChild(card);
+}
+
 function showPlayer(playerKey) {
   const player = players[playerKey];
 
@@ -18,4 +44,17 @@ function showPlayer(playerKey) {
 
 function closeModal() {
   document.getElementById("player-modal").style.display = "none";
+
+
+  //GOT FROM WEB
+  window.onclick = function(event) {
+
+  const modal = document.getElementById("player-modal");
+
+  if (event.target === modal) {
+
+    modal.style.display = "none";
+  }
+}
+
 }
