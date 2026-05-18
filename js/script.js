@@ -1,12 +1,12 @@
 const gallery = document.getElementById("player-gallery");
 
-/* CREATE PLAYER CARDS */
-
+/* LOOPS THROUGH ALL PLAYERS*/
 for (const key in players) {
+  /*STORES DATA*/
   const player = players[key];
-
+/*CREATES A CARD DIV*/
   const card = document.createElement("div");
-
+/*GIVES IT A CLASS FOR CSS*/
   card.classList.add("player-card");
 
   /* GOLD BORDER CONDITION FROM WEB */
@@ -23,21 +23,25 @@ for (const key in players) {
     card.appendChild(badge);
   }
   /*END OF GOLD BORDER FROM WEB */
+  
+  /*INSERTS HTML AND PLAYER VALUES INSIDE*/
+  /*RUNS KEY WHEN BUTTON CLICKED*/  
   card.innerHTML = `
   
     <img src="${player.image}" alt="${player.name}">
+  
 
     <h3>${player.name}</h3>
-
     <button onclick="showPlayer('${key}')">
       View Stats
     </button>
 
   `;
-
+/*PUTS CARD IN THE GALLERY*/
   gallery.appendChild(card);
 }
 
+/*FROM DEMO*/
 function showPlayer(playerKey) {
   const player = players[playerKey];
 
@@ -56,8 +60,8 @@ function showPlayer(playerKey) {
   document.getElementById("player-modal").style.display = "flex";
 }
 
+/*CLOSES MODAL WHEN CLICKED*/
 function closeModal() {
   document.getElementById("player-modal").style.display = "none";
 }
 
-console.log(players);
