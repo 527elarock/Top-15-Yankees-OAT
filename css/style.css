@@ -9,10 +9,40 @@
 }
 
 body {
-    font-family: 'Martel Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #0C2340;
     color: white;
     line-height: 1.6;
+}
+
+/* HEADINGS */
+
+.hero-title,
+.about-hero h1,
+.legacy-section h2,
+.history-section h2,
+.image-section h2,
+.feature-card h3,
+.player-card h3,
+.modal-content h2 {
+
+    font-family: 'Oswald', sans-serif;
+
+    letter-spacing: 1px;
+}
+
+/* NAV BUTTONS */
+
+.nav-btn {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* PLAYER BUTTONS */
+
+.player-card button {
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* =========================================
@@ -425,14 +455,13 @@ body {
 }
 
 .history-card {
-    background: white;
-    color: #0C2340;
 
     border-radius: 15px;
 
     overflow: hidden;
 
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.2);
 
     transition: 0.3s ease;
 }
