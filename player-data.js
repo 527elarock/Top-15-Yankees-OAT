@@ -1,7 +1,7 @@
 const players = {
   br: {
     name: "Babe Ruth",
-    image: "../img/br.jpg",
+    image: "br.jpg",
     position: "Right Fielder",
     wins: "7",
     selections: "2",
@@ -13,7 +13,7 @@ const players = {
   },
   lg: {
     name: "Lou Gehrig",
-    image: "../img/lg.jpg",
+    image: "lg.jpg",
     position: "First Baseman",
     wins: "6",
     selections: "7",
@@ -25,7 +25,7 @@ const players = {
   },
   mm: {
     name: "Mickey Mantle",
-    image: "../img/mm.jpg",
+    image: "mm.jpg",
     position: "Center Fielder",
     wins: "7",
     selections: "16",
@@ -37,7 +37,7 @@ const players = {
   },
   jd: {
     name: "Joe DiMaggio",
-    image: "../img/jd.jpg",
+    image: "jd.jpg",
     position: "Center Fielder",
     wins: "9",
     selections: "13",
@@ -49,7 +49,7 @@ const players = {
   },
   yb: {
     name: "Yogi Berra",
-    image: "../img/yb.jpg",
+    image: "yb.jpg",
     position: "Catcher",
     wins: "10",
     selections: "18",
@@ -61,7 +61,7 @@ const players = {
   },
   dj: {
     name: "Derek Jeter",
-    image: "../img/dj.jpg",
+    image: "dj.jpg",
     position: "Shortstop",
     wins: "5",
     selections: "14",
@@ -73,7 +73,7 @@ const players = {
   },
   mr: {
     name: "Mariano Rivera",
-    image: "../img/mr.jpg",
+    image: "mr.jpg",
     position: "Closer",
     wins: "5",
     selections: "13",
@@ -85,7 +85,7 @@ const players = {
   },
   wf: {
     name: "Whitey Ford",
-    image: "../img/wf.jpg",
+    image: "wf.jpg",
     position: "Starting Pitcher",
     wins: "6",
     selections: "10",
@@ -97,7 +97,7 @@ const players = {
   },
   tm: {
     name: "Thurman Munson",
-    image: "../img/tm.jpg",
+    image: "tm.jpg",
     position: "Catcher",
     wins: "3",
     selections: "7",
@@ -109,7 +109,7 @@ const players = {
   },
   bw: {
     name: "Bernie Williams",
-    image: "../img/bw.jpg",
+    image: "bw.jpg",
     position: "Center Fielder",
     wins: "4",
     selections: "5",
@@ -121,7 +121,7 @@ const players = {
   },
   aj: {
     name: "Aaron Judge",
-    image: "../img/aj.jpg",
+    image: "aj.jpg",
     position: "Right Fielder",
     wins: "1",
     selections: "6",
@@ -133,7 +133,7 @@ const players = {
   },
   ar: {
     name: "Alex Rodriguez",
-    image: "../img/ar.jpg",
+    image: "ar.jpg",
     position: "Shortstop/Third Base",
     wins: "1",
     selections: "14",
@@ -145,7 +145,7 @@ const players = {
   },
   dm: {
     name: "Don Mattingly",
-    image: "../img/dm.jpg",
+    image: "dm.jpg",
     position: "First Baseman",
     wins: "1",
     selections: "6",
@@ -157,7 +157,7 @@ const players = {
   },
   ap: {
     name: "Andy Pettitte",
-    image: "../img/ap.jpg",
+    image: "ap.jpg",
     position: "Starting Pitcher",
     wins: "5",
     selections: "3",
@@ -169,7 +169,7 @@ const players = {
   },
   rj: {
     name: "Reggie Jackson",
-    image: "../img/rj.jpg",
+    image: "rj.jpg",
     position: "Right Fielder",
     wins: "2",
     selections: "14",
@@ -182,7 +182,7 @@ const players = {
 
   bd: {
     name: "Bill Dickey ",
-    image: "../img/bd.jpg",
+    image: "bd.jpg",
     position: "Catcher ",
     wins: "7",
     selections: "11",
